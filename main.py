@@ -16,7 +16,7 @@ model=LinearRegression()
 
 #training of data
 model.fit(X,Y)
-#modle pricdcition for all x values ,so that we can find mae,mse,rmse ,r2
+#model pricdcition for all x values ,so that we can find mae,mse,rmse ,r2
 predict=model.predict(X)
 
 mae=mean_absolute_error(Y,predict)
